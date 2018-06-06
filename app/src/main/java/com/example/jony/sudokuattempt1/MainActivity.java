@@ -28,51 +28,7 @@ public class MainActivity extends AppCompatActivity {
         Button solveButton = findViewById(R.id.solveButton);
         final TextView resultText = findViewById(R.id.resultMessageTextView);
         final List<EditText> boxes = makeList();
-        solveButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Map<Integer, Integer> mapOfInputValues = makeInputMap(boxes);
-
-                for (EditText box : boxes) {
-                    box.setTextColor(Color.BLACK);
-                }
-
-                // Mark any invalid cells in red.
-                List<Integer> invalidCells = SudokuSolver.validateInputMap(mapOfInputValues);
-                if (!invalidCells.isEmpty()) {
-                    for (Integer naughtyCell : invalidCells) {
-                        boxes.get(naughtyCell-1).setTextColor(Color.RED);
-                    }
-                    resultText.setText(R.string.invalidInput);
-                    return;
-                }
-
-                // If the input grid is valid, then we can proceed with solving it.
-                List<Integer> result = new ArrayList<>();
-                try {
-                    result = solveSudoku(mapOfInputValues, new HashMap<Integer, Integer>(), SolverType.NORMAL);
-                } catch (Exception e) {
-                resultText.setText(R.string.solvingUnsuccessful);
-                //Testing
-                }
-
-                // If we couldn't solve it, then say it was unsuccessful.
-                if (result == null) {
-                    resultText.setText(R.string.solvingUnsuccessful);
-                    return;
-                }
-
-                // Otherwise, if its successful, we can populate the solution on screen.
-                if (!result.isEmpty()) {
-                    int index = 1;
-                    for (EditText box : boxes) {
-                        box.setText(result.get(index).toString());
-                        index ++;
-                    }
-                    resultText.setText(R.string.solvingSuccessful);
-                }
-            }
-        }); 
+        solveButton.setOnClickListener(new SolverOnClickListener(boxes, resultText));
 
         Button clearButton = findViewById(R.id.clearButton);
         clearButton.setOnClickListener(new View.OnClickListener() {
@@ -110,20 +66,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    private Map<Integer, Integer> makeInputMap(List<EditText> boxes){
-        Map<Integer, Integer> mapOfInputValues = new HashMap<>();
-
-        int index = 1;
-        for (EditText box : boxes) {
-            if (!box.getText().toString().equals("")) {
-                mapOfInputValues.put(index, Integer.parseInt(box.getText().toString()));
-            }
-            index ++;
-        }
-        return mapOfInputValues;
-    }
-
-    private List<EditText> makeList () {
+    List<EditText> makeList () {
         List<EditText> boxes = new ArrayList<>();
 
         boxes.add((EditText) findViewById(R.id.editText1)); boxes.add((EditText) findViewById(R.id.editText2)); boxes.add((EditText) findViewById(R.id.editText3));

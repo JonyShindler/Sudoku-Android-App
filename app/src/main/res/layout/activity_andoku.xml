@@ -1,0 +1,1073 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:windowSoftInputMode="adjustPan"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/editTextAndoku1"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:cursorVisible="false"
+                android:ems="10"
+                android:inputType="number"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:maxLength="1" />
+
+            <EditText
+                android:id="@+id/editTextAndoku2"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku3"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku4"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku5"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku6"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku7"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku8"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku9"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/editTextAndoku10"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku11"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku12"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku13"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku14"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku15"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku16"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku17"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku18"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/editTextAndoku19"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku20"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku21"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku22"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku23"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku24"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku25"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku26"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku27"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/editTextAndoku28"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku29"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku30"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku31"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku32"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku33"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku34"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku35"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku36"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/editTextAndoku37"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku38"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku39"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku40"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku41"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku42"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku43"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku44"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku45"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/editTextAndoku46"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku47"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku48"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku49"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku50"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku51"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku52"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku53"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku54"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/editTextAndoku55"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku56"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku57"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku58"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku59"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku60"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku61"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku62"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku63"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/editTextAndoku64"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku65"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku66"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku67"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku68"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku69"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku70"
+                android:layout_width="31dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku71"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku72"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="21dp">
+
+            <EditText
+                android:id="@+id/editTextAndoku73"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku74"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku75"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku76"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku77"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku78"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku79"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku80"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAndoku81"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_box_border"
+                android:ems="10"
+                android:maxLength="1"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:textAlignment="center" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/solveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="8dp"
+        android:text="Solve"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout"
+        app:layout_constraintVertical_bias="0.504" />
+
+    <Button
+        android:id="@+id/clearButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Clear"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.739"
+        app:layout_constraintStart_toEndOf="@+id/solveButton"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
+
+    <TextView
+        android:id="@+id/resultMessageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/solveButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
+
+    <Button
+        android:id="@+id/exampleButton"
+        android:layout_width="71dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Example"
+        android:textAlignment="center"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/clearButton"
+        app:layout_constraintStart_toEndOf="@+id/solveButton"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
+
+    <LinearLayout
+        android:layout_width="33dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tableLayout"
+        app:layout_constraintTop_toTopOf="@+id/tableLayout"
+        app:layout_constraintVertical_bias="0.383">
+
+        <Button
+            android:id="@+id/redButton"
+            android:layout_width="match_parent"
+            android:layout_height="39sp"
+            android:layout_marginBottom="8sp"
+            android:background="@android:color/holo_red_dark"
+            app:layout_constraintBottom_toBottomOf="@+id/tableLayout"
+            app:layout_constraintEnd_toStartOf="@+id/tableLayout"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/greenButton"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:layout_marginBottom="8sp"
+            android:background="@android:color/holo_green_dark"
+            app:layout_constraintBottom_toTopOf="@+id/redButton"
+            app:layout_constraintEnd_toStartOf="@+id/tableLayout"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/yellowButton"
+            app:layout_constraintVertical_bias="0.7" />
+
+        <Button
+            android:id="@+id/yellowButton"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:layout_marginBottom="8sp"
+            android:background="@android:color/holo_orange_light"
+            tools:layout_editor_absoluteX="8dp" />
+
+        <Button
+            android:id="@+id/purpleButton"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:layout_marginBottom="8sp"
+            android:background="@android:color/holo_purple"
+            tools:layout_editor_absoluteX="323dp"
+            tools:layout_editor_absoluteY="107dp" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

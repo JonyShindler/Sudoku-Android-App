@@ -13,12 +13,21 @@ public class OpeningPage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_opening_page);
 
-        Button getStartedButton = (Button) findViewById(R.id.getStartedButton);
-        getStartedButton.setOnClickListener(new View.OnClickListener() {
+        Button startSudokuButton = findViewById(R.id.startSudokuButton);
+        startSudokuButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent changeToSolvingScreen = new Intent(getApplicationContext(), MainActivity.class);
-                startActivity(changeToSolvingScreen);
+                Intent startSudokuSolver = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(startSudokuSolver);
+            }
+        });
+
+        Button startAndokuButton = findViewById(R.id.startAndokuButton);
+        startAndokuButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent startAndokuSolver = new Intent(getApplicationContext(), AndokuActivity.class);
+                startActivity(startAndokuSolver);
             }
         });
 
