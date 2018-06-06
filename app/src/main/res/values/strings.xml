@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Sudoku Solver</string>
+    <string name="solvingSuccessful">Solving successful</string>
+    <string name="solvingUnsuccessful">Solving unsuccessful</string>
+    <string name="invalidInput">Input grid is invalid</string>
+</resources>
