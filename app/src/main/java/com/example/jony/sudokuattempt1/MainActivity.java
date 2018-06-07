@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         Button solveButton = findViewById(R.id.solveButton);
         final TextView resultText = findViewById(R.id.resultMessageTextView);
         final List<EditText> boxes = makeList();
-        solveButton.setOnClickListener(new SolverOnClickListener(boxes, resultText));
+        solveButton.setOnClickListener(new SolverOnClickListener(boxes, resultText, SolverType.NORMAL));
 
         Button clearButton = findViewById(R.id.clearButton);
         clearButton.setOnClickListener(new View.OnClickListener() {
@@ -40,22 +40,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         Button exampleButton = findViewById(R.id.exampleButton);
-        exampleButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                clearBoxes(boxes);
-
-                boxes.get(3).setText("2"); boxes.get(7).setText("6"); boxes.get(8).setText("3");
-                boxes.get(9).setText("3"); boxes.get(14).setText("5"); boxes.get(15).setText("4"); boxes.get(17).setText("1");
-                boxes.get(20).setText("1"); boxes.get(23).setText("3"); boxes.get(24).setText("9"); boxes.get(25).setText("8");
-                boxes.get(34).setText("9");
-                boxes.get(39).setText("5"); boxes.get(40).setText("3"); boxes.get(41).setText("8");
-                boxes.get(46).setText("3");
-                boxes.get(55).setText("2"); boxes.get(56).setText("6"); boxes.get(57).setText("3"); boxes.get(60).setText("5");
-                boxes.get(63).setText("5"); boxes.get(65).setText("3"); boxes.get(66).setText("7"); boxes.get(71).setText("8");
-                boxes.get(72).setText("4"); boxes.get(73).setText("7"); boxes.get(77).setText("1");
-            }
-        });
+        exampleButton.setOnClickListener(new SudokuExampleClickListener(boxes, resultText));
     }
 
     private void clearBoxes(List<EditText> boxes) {
@@ -101,4 +86,29 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    private class SudokuExampleClickListener implements View.OnClickListener {
+        private final List<EditText> boxes;
+        private final TextView resultText;
+
+        public SudokuExampleClickListener(List<EditText> boxes, TextView resultText) {
+            this.boxes = boxes;
+            this.resultText = resultText;
+        }
+
+        @Override
+        public void onClick(View v) {
+            clearBoxes(boxes);
+            resultText.setText("");
+
+            boxes.get(3).setText("2"); boxes.get(7).setText("6"); boxes.get(8).setText("3");
+            boxes.get(9).setText("3"); boxes.get(14).setText("5"); boxes.get(15).setText("4"); boxes.get(17).setText("1");
+            boxes.get(20).setText("1"); boxes.get(23).setText("3"); boxes.get(24).setText("9"); boxes.get(25).setText("8");
+            boxes.get(34).setText("9");
+            boxes.get(39).setText("5"); boxes.get(40).setText("3"); boxes.get(41).setText("8");
+            boxes.get(46).setText("3");
+            boxes.get(55).setText("2"); boxes.get(56).setText("6"); boxes.get(57).setText("3"); boxes.get(60).setText("5");
+            boxes.get(63).setText("5"); boxes.get(65).setText("3"); boxes.get(66).setText("7"); boxes.get(71).setText("8");
+            boxes.get(72).setText("4"); boxes.get(73).setText("7"); boxes.get(77).setText("1");
+        }
+    }
 }

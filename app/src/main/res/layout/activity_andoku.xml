@@ -1025,14 +1025,58 @@
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="@+id/tableLayout"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
         app:layout_constraintStart_toEndOf="@+id/tableLayout"
         app:layout_constraintTop_toTopOf="@+id/tableLayout"
-        app:layout_constraintVertical_bias="0.383">
+        app:layout_constraintVertical_bias="0.0">
+
+        <Button
+            android:id="@+id/tomatoButton"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginBottom="8sp"
+            android:background="@android:color/holo_red_light"
+            tools:layout_editor_absoluteX="323dp"
+            tools:layout_editor_absoluteY="107dp" />
+
+        <Button
+            android:id="@+id/orangeButton"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginBottom="8sp"
+            android:background="@android:color/holo_orange_dark"
+            tools:layout_editor_absoluteX="323dp"
+            tools:layout_editor_absoluteY="107dp" />
+
+        <Button
+            android:id="@+id/darkBlueButton"
+            android:layout_width="match_parent"
+            android:layout_height="30sp"
+            android:layout_marginBottom="8sp"
+            android:background="?attr/colorPrimaryDark"
+            tools:layout_editor_absoluteX="323dp"
+            tools:layout_editor_absoluteY="107dp" />
+
+        <Button
+            android:id="@+id/pinkButton"
+            android:layout_width="match_parent"
+            android:layout_height="30sp"
+            android:layout_marginBottom="8sp"
+            android:background="?android:attr/colorAccent"
+            tools:layout_editor_absoluteX="323dp"
+            tools:layout_editor_absoluteY="107dp" />
+
+        <Button
+            android:id="@+id/lightBlueButton"
+            android:layout_width="match_parent"
+            android:layout_height="30sp"
+            android:layout_marginBottom="8sp"
+            android:background="@android:color/holo_blue_light" />
 
         <Button
             android:id="@+id/redButton"
             android:layout_width="match_parent"
-            android:layout_height="39sp"
+            android:layout_height="30sp"
             android:layout_marginBottom="8sp"
             android:background="@android:color/holo_red_dark"
             app:layout_constraintBottom_toBottomOf="@+id/tableLayout"
@@ -1043,7 +1087,7 @@
         <Button
             android:id="@+id/greenButton"
             android:layout_width="match_parent"
-            android:layout_height="39dp"
+            android:layout_height="30sp"
             android:layout_marginBottom="8sp"
             android:background="@android:color/holo_green_dark"
             app:layout_constraintBottom_toTopOf="@+id/redButton"
@@ -1056,7 +1100,7 @@
         <Button
             android:id="@+id/yellowButton"
             android:layout_width="match_parent"
-            android:layout_height="39dp"
+            android:layout_height="30sp"
             android:layout_marginBottom="8sp"
             android:background="@android:color/holo_orange_light"
             tools:layout_editor_absoluteX="8dp" />
@@ -1064,10 +1108,11 @@
         <Button
             android:id="@+id/purpleButton"
             android:layout_width="match_parent"
-            android:layout_height="39dp"
+            android:layout_height="30sp"
             android:layout_marginBottom="8sp"
             android:background="@android:color/holo_purple"
             tools:layout_editor_absoluteX="323dp"
             tools:layout_editor_absoluteY="107dp" />
     </LinearLayout>
+
 </android.support.constraint.ConstraintLayout>

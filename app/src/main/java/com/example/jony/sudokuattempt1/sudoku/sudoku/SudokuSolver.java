@@ -23,7 +23,7 @@ public class SudokuSolver {
 	}
 
 
-	public static List<Integer> validateInputMap(Map<Integer, Integer> mapOfInputValues) {
+	public static List<Integer> validateInputMap(Map<Integer, Integer> mapOfInputValues, Map<Integer, Integer> mapOfBoxValues, SolverType solverType) {
 		List<Integer> inputtedGrid = BuildGridFromInputsService.createListFromInputMap(mapOfInputValues);
 		List<Integer> listOfNaughtyIndexes = new ArrayList<>();
 
@@ -31,8 +31,8 @@ public class SudokuSolver {
 			if (!ValidValueService.isValid(value.getValue(),
 					     value.getKey(),
 					     inputtedGrid,
-						 SolverType.NORMAL,
-					     new HashMap<Integer, Integer>(),
+						 solverType,
+					     mapOfBoxValues,
 						 true)){
 				listOfNaughtyIndexes.add(value.getKey());
 			}

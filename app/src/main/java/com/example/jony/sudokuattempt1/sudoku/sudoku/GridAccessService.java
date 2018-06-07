@@ -20,7 +20,7 @@ public class GridAccessService {
 		int i = ValidValueService.findRowNumber(index);
 		int j = ValidValueService.findColumnNumber(index);
 		
-		if (solverType == SolverType.PERCENT){
+		if (solverType == SolverType.ANDOKU){
 			return findBoxForPercentSudoku(index, mapOfBoxPositions);
 		}
 		return findBoxForStandard3x3BoxSudoku(i, j);
@@ -38,7 +38,7 @@ public class GridAccessService {
 		List<Integer> listInBox= new ArrayList<Integer>();
 
 		for (int i = 1 ; i <= grid.size()-1 ; i++) {
-			if (solverType == SolverType.PERCENT){
+			if (solverType == SolverType.ANDOKU){
 				loopedBox = findBoxForPercentSudoku(i, mapOfBoxPositions);
 			} else {
 				loopedBox = findBoxForStandard3x3BoxSudoku(ValidValueService.findRowNumber(i), ValidValueService.findColumnNumber(i));

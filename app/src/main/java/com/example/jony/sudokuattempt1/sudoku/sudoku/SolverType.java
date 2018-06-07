@@ -17,7 +17,7 @@ public enum SolverType {
 	/**
 	 * 9x9 sudoku with non-regular boxes 
 	 */
-	PERCENT
+	ANDOKU
 	
 	
 }
